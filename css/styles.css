@@ -44,17 +44,15 @@ body {
 
 /* Logo */
 .logo {
+  color: black;
   font-family: 'Raleway', sans-serif;
-  font-style: 700;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
 }
-.blue-part .blue-part:visited {
+.accent {
   color: var(--accent-color);
-}
-.black-part .black-part {
-  color: var(--primary-black-color);
 }
 
 /* Шапка сайта */
