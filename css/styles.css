@@ -7,7 +7,6 @@
   --primary-footer-hero-color: #2f303a;
   --primary-background-color: #e5e5e5;
   --grey-background-color: #f5f4fa;
-  --contacts-footer-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -37,14 +36,19 @@ body {
 }
 
 /* Шапка сайта */
-.site-nav .link {
+.site-nav .link,
+.site-nav .link:visited {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current-page-color {
   color: var(--accent-color);
 }
 
@@ -170,5 +174,5 @@ button {
 }
 
 .contacts .link {
-  color: var(--contacts-footer-color);
+  color: rgba(255, 255, 255, 0.6);
 }
