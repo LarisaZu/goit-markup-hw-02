@@ -173,7 +173,7 @@ button {
   color: var(--primary-white-color);
 }
 
-.footer .link {
+.footer a {
   text-decoration: none;
 }
 .address {
