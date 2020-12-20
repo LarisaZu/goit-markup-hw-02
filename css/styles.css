@@ -7,6 +7,8 @@
   --primary-footer-hero-color: #2f303a;
   --primary-background-color: #e5e5e5;
   --grey-background-color: #f5f4fa;
+  --contacts-color: rgba(255, 255, 255, 0.6);
+  --weight-black: 900;
   --weight-bold: 700;
   --weight-middle: 500;
   --weight-normal: 400;
@@ -51,7 +53,8 @@ body {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
-.site-nav .link.current-page-color {
+
+.site-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -74,7 +77,7 @@ body {
 }
 .hero-title {
   color: var(--primary-white-color);
-  font-weight: var(--weight-middle);
+  font-weight: var(--weight-black);
   font-size: 44px;
   text-transform: uppercase;
   line-height: 1.36;
@@ -166,6 +169,9 @@ button {
   font-weight: var(----weight-normal);
   line-height: 1.71em;
 }
+.footer .logo {
+  color: var(--primary-white-color);
+}
 
 .footer .link {
   text-decoration: none;
@@ -176,5 +182,10 @@ button {
 }
 
 .contacts .link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contacts-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
 }
