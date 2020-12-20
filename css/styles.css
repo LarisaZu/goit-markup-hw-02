@@ -41,24 +41,24 @@ body {
 }
 
 /* Шапка сайта */
-.site-nav .link,
-.site-nav .link:visited {
+.site-nav a,
+.site-nav a:visited {
   font-weight: var(--weight-middle);
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav a:hover,
+.site-nav a:focus {
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.site-nav a.current {
   color: var(--accent-color);
 }
 
-.contacts-nav .link {
+.contacts-nav a {
   color: var(--subtitle-text-color);
   font-weight: var(--weight-middle);
   line-height: 1.14;
@@ -66,8 +66,8 @@ body {
   text-decoration: none;
 }
 
-.contacts-nav .link:hover,
-.contacts-nav .link:focus {
+.contacts-nav a:hover,
+.contacts-nav a:focus {
   color: var(--accent-color);
 }
 
@@ -181,11 +181,11 @@ button {
   font-style: normal;
 }
 
-.contacts .link {
+.contacts a {
   color: var(--contacts-color);
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts a:hover,
+.contacts a:focus {
   color: var(--accent-color);
 }
